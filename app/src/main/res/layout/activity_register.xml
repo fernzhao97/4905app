@@ -77,7 +77,7 @@
                         android:layout_marginTop="@dimen/loginViewsMargin">
 
                         <EditText
-                            android:id="@+id/editTextEmail"
+                            android:id="@+id/edit_Text_Email"
                             style="@style/modifiedEditText"
                             android:hint="Email"
                             android:inputType="textEmailAddress"
@@ -103,7 +103,7 @@
                         android:layout_marginTop="@dimen/loginViewsMargin">
 
                         <EditText
-                            android:id="@+id/editTextPassword"
+                            android:id="@+id/edit_Text_Password"
                             style="@style/modifiedEditText"
                             android:hint="Create Password"
                             android:inputType="textPassword"
