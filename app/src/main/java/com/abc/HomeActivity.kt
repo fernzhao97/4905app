@@ -12,14 +12,14 @@ class HomeActivity : AppCompatActivity() {
 
         val uid: TextView = findViewById(R.id.uid)
         val email:TextView=findViewById(R.id.email_id)
-        val successText : TextView=findViewById(R.id.textSuccess)
+
         val userId = intent.getStringExtra("user_id")
         val emailId = intent.getStringExtra("Email_id")
 
 
         uid.text = "User ID:: $userId"
         email.text = "Email ID:: $emailId"
-        successText.text = "Successfully! Registered!"
+
     }
 
 }
