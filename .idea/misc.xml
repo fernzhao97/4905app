@@ -20,10 +20,12 @@
         <entry key="app/src/main/res/layout/activity_face_book_login.xml" value="0.1213768115942029" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_quick_sort.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="app/src/main/res/layout/poly.xml" value="0.11548913043478261" />
+        <entry key="app/src/main/res/layout/quick_sort.xml" value="0.25769404489778175" />
       </map>
     </option>
   </component>

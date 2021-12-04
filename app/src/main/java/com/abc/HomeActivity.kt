@@ -1,5 +1,6 @@
 package com.abc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
@@ -20,6 +21,24 @@ class HomeActivity : AppCompatActivity() {
         uid.text = "User ID:: $userId"
         email.text = "Email ID:: $emailId"
 
+        val quickSortImage: ImageView = findViewById(R.id.quickSortImage)
+        quickSortImage.setOnClickListener {
+            // Do something in response to button click
+            val intent = Intent(this,QuickSortActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_left,R.anim.stay)
+
+        }
+        val quickSortText: TextView = findViewById(R.id.quickSortText)
+        quickSortText.setOnClickListener {
+            // Do something in response to button click
+            val intent = Intent(this,QuickSortActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_left,R.anim.stay)
+
+        }
+
     }
+
 
 }
