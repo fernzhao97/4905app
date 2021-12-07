@@ -13,6 +13,9 @@ open class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login2)
+       window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
+
         val facebookBtn : ImageView = findViewById(R.id.facebookIMG)
         facebookBtn.setOnClickListener{
             val intent = Intent(this,FaceBookLoginActivity::class.java)

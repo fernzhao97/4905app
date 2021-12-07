@@ -5,17 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
-
-    android:background="@drawable/back_blue"
+    android:background="@color/register_bk_color"
     >
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:paddingTop="20dp">
+
+      >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,14 +62,7 @@
                     />
 
 
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_alignParentRight="true"
-                    android:src="@drawable/user">
 
-
-                </ImageView>
 
 
             </RelativeLayout>
@@ -142,16 +133,19 @@
                         android:padding="16dp">
 
                         <ImageView
+                            android:id="@+id/quickSortQuizImage"
                             android:layout_width="80dp"
                             android:layout_height="80dp"
                             android:src="@drawable/icon_app" />
 
                         <TextView
+                            android:id="@+id/quickSortQuiz"
+                            android:text="quickSortQuiz"
                             android:layout_width="wrap_content"
 
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="MergeSort"
+
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="18sp" />
 

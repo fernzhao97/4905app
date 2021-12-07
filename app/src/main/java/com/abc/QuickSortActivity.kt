@@ -3,6 +3,7 @@ package com.abc
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -13,6 +14,7 @@ class QuickSortActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.quick_sort)
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         var imageView1 : ImageView = findViewById(R.id.showQuickSort)
         var imageView2 : ImageView = findViewById(R.id.showQuickSort2)
         var prev : Button = findViewById(R.id.PrevBtn)
