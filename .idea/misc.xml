@@ -17,6 +17,9 @@
         <entry key="app/src/main/res/drawable/ic_login_hero.xml" value="0.19739583333333333" />
         <entry key="app/src/main/res/drawable/ic_register_hero.xml" value="0.19739583333333333" />
         <entry key="app/src/main/res/drawable/ic_side_bg.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/drawable/optionSelected_background.xml" value="0.2421875" />
+        <entry key="app/src/main/res/drawable/option_background.xml" value="1.5164234588855146" />
+        <entry key="app/src/main/res/drawable/selected_option.xml" value="0.2552954515563347" />
         <entry key="app/src/main/res/layout/activity_face_book_login.xml" value="0.1213768115942029" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.2756972111553785" />
         <entry key="app/src/main/res/layout/activity_home1.xml" value="0.19384057971014493" />
@@ -24,7 +27,8 @@
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_quick_sort.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/activity_quick_sort_quiz.xml" value="0.1897644927536232" />
+        <entry key="app/src/main/res/layout/activity_quick_sort_quiz 2.xml" value="0.1897644927536232" />
+        <entry key="app/src/main/res/layout/activity_quick_sort_quiz.xml" value="0.37036629790443754" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_scrolling_home.xml" value="0.10209153828716964" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.19384057971014493" />

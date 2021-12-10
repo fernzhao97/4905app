@@ -10,11 +10,17 @@ object Constants {
 
         questionsList.add(q1)
 
-        val q2 = QuickSortQuestions(1, "Java？",
+        val q2 = QuickSortQuestions(2, "Java？",
             R.drawable.ic_login_hero, "A","B","C","D",1
         )
 
         questionsList.add(q2)
+
+        val q3 = QuickSortQuestions(3, "Kotlin？",
+            R.drawable.ic_login_hero, "A","B","C","D",1
+        )
+
+        questionsList.add(q3)
         return questionsList
     }
 
